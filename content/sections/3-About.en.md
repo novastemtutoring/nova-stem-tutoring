@@ -5,39 +5,18 @@ subheader: "Lorem ipsum dolor sit amet consectetur."
 timeline: [
   {
 
-    imageFileName: "about/1.jpg",
-    header: "2009-2011",
-    subheader: "Our Humble Beginnings",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    imageFileName: "about/uva_centered_logo.jpg",
+    header: "2014-2019",
+    subheader: "Ph.D. Biomedical Engineering",
+    content: "Studied protein behavior from the perspective of a physicist. Here I learned advanced linear algebra, advanced statistical mechanics and thermodynamics, and probability and statistics, programming in Python and C++. Check out my papers!"
 
   }, 
   {
 
-    imageFileName: "about/2.jpg",
-    header: "March 2011",
-    subheader: "An Agency is Born",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-  }, 
-  {
-
-    imageFileName: "about/3.jpg",
-    header: "December 2012",
-    subheader: "Transition to Full Service",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-  }, 
-  {
-
-    imageFileName: "about/4.jpg",
-    header: "July 2014",
-    subheader: "Phase Two Expansion",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
-  }, 
-  {
-
-    imageContent: "Be Part\r\nOf Our\r\nStory!"
+    imageFileName: "about/williamandmary.jpg",
+    header: "2009-2013",
+    subheader: "B.S. in Physics and Applied Mathematics",
+    content: "Physics 101 and 102 - Classical Mechanics - Quantum Mechanics - Electricity and Magnetism - Thermodynamics and Statistical Mechanics"
 
   }
 ]

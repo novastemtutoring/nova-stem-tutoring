@@ -1,12 +1,12 @@
 ---
 anchor: "Teaching Experience"
 header: "Teaching Experience"
-subheader: ""
+subheader: "Click the links below to find out more about my teaching!"
 portfolios: [
   {
 
-    imageFileName: "team/heat_engine.png",
-    imageFileNameDetail: "team/heat_engine.png",
+    imageFileName: "experience/heat_engine.png",
+    imageFileNameDetail: "experience/heat_engine.png",
     header: "Biophysical Principles",
     subheader: "Course Instructor",
     content: "Designed and taught curriculum on intro thermodynamics and statistical mechanics for first graduate students",
@@ -15,8 +15,8 @@ portfolios: [
   }, 
   {
 
-    imageFileName: "team/ideaslab.png",
-    imageFileNameDetail: "team/ideaslab.png",
+    imageFileName: "experience/ideaslab.png",
+    imageFileNameDetail: "experience/ideaslab.png",
     header: "IDEAS Lab",
     subheader: "Teaching Assistant",
     content: "Supervised laboratory work of undergraduate biomedical engineering students.",
@@ -25,8 +25,8 @@ portfolios: [
   }, 
   {
 
-    imageFileName: "team/linearalgebra.png",
-    imageFileNameDetail: "team/linearalgebra.png",
+    imageFileName: "experience/linearalgebra.png",
+    imageFileNameDetail: "experience/linearalgebra.png",
     header: "Linear Algebra for Engineers",
     subheader: "Teaching Assistant",
     content: "Graded and held office hours with undergraduate engineering students",
@@ -35,8 +35,8 @@ portfolios: [
   }, 
   {
 
-    imageFileName: "team/uva_centered_logo.jpg",
-    imageFileNameDetail: "team/uva_centered_logo.jpg",
+    imageFileName: "experience/uva_centered_logo.jpg",
+    imageFileNameDetail: "experience/uva_centered_logo.jpg",
     header: "Undergraduate Research Mentor",
     subheader: "Mentor",
     content: "Ongoing mentorship of undergraduate student in biomedical engineering (2018-present)",
@@ -46,8 +46,8 @@ portfolios: [
 
     {
 
-    imageFileName: "team/uva_centered_logo.jpg",
-    imageFileNameDetail: "team/uva_centered_logo.jpg",
+    imageFileName: "experience/uva_centered_logo.jpg",
+    imageFileNameDetail: "experience/uva_centered_logo.jpg",
     header: "REU Mentor",
     subheader: "Mentor for Research Experience for Undergraduates",
     content: "Mentored undergraduate student in biomedical engineering for one summer of research",

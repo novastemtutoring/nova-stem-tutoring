@@ -33,6 +33,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     "type MarkdownRemark implements Node { frontmatter: Frontmatter }",
     `type Frontmatter {
       anchor: String
+      content: String
       jumpToAnchor: String
       jumpToAnchorText: String
       social: Social

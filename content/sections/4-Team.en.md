@@ -1,38 +1,55 @@
 ---
-anchor: "Team"
-header: "Our Amazing Team"
-subheader: "Lorem ipsum dolor sit amet consectetur."
-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+anchor: "Teaching Experience"
+header: "Teaching Experience"
+subheader: "I've done everything! --- TA'ing --- mentoring undergraduate research students --- hosting study sections --- designing courses!"
 teamMember: [
   {
-    imageFileName: "team/1.jpg",
-    header: "Kay Garland",
-    subheader: "Lead Designer",
+
+    imageFileName: "team/heat_engine.png",
+    header: "Biophysical Principles",
+    subheader: "Course Instructor",
     social: {
-      twitter: "#",
-      facebook: "#",
-      linkedin: "#"
     }
-  },
+
+  }, 
   {
-    imageFileName: "team/2.jpg",
-    header: "Larry Parker",
-    subheader: "Lead Marketer",
+
+    imageFileName: "team/ideaslab.png",
+    header: "IDEAS LAB: an experimental design course in Biomedical Engineering",
+    subheader: "Teaching Assistant",
     social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
     }
-  },
+
+  }, 
   {
-    imageFileName: "team/3.jpg",
-    header: "Diana Pertersen",
-    subheader: "Lead Developer",
+
+    imageFileName: "team/linearalgebra.png",
+    header: "Linear Algebra for Engineers",
+    subheader: "Teaching Assistant",
     social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
+    },
+
+  }, 
+  {
+
+    imageFileName: "team/uva_centered_logo.jpg",
+    header: "Biomedical Engineering research mentor",
+    subheader: "Mentored student undegraduate BME student: 2019-present",
+    social: {
     }
-  },
+
+  }, 
+
+    {
+
+    imageFileName: "team/uva_centered_logo.jpg",
+    header: "REU Research Mentor",
+    subheader: "Mentored student undegraduate BME student: summer 2018",
+    social: {
+    }
+
+  }
+
+  
 ]
 ---

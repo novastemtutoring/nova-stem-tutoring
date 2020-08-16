@@ -1,8 +1,5 @@
 ---
-header: "Welcome to NoVA STEM Tutoring!"
-subheader: "I am a tutor located in the Northern Virginia area. I specialize in physics and mathematics courses for undergraduate and advanced high school students.
-"
+header: "NoVA STEM Tutoring!"
+subheader: "Welcome to"
 imageFileName: "header-bg.jpg"
-jumpToAnchor: "Coronavirus"
-jumpToAnchorText: "Coronavirus"
 ---

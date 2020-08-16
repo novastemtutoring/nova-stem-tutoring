@@ -1,10 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Button, Row, Col } from "react-bootstrap";
-import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import ImageCard from "components/ImageCard";
-import emoji from 'react-easy-emoji';
 
 
 const Top = ({ frontmatter }) => {
@@ -14,41 +11,32 @@ const Top = ({ frontmatter }) => {
 
   const { header, subheader, imageFileName, jumpToAnchor, jumpToAnchorText } = frontmatter;
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const scrollToSection = useSmoothScrollTo(jumpToAnchor);
+  // const scrollToSection = useSmoothScrollTo(jumpToAnchor);
 
   let extraInfoPart;
   if (jumpToAnchor && jumpToAnchorText) {
-    extraInfoPart = (
-      <Row>
-        <Col>
-          <Button
-            size="xl"
-            variant="primary"
-            className="text-uppercase"
-            href="https://jmhays.github.io"
-          >
-            My Academic Creds {emoji("👩🏻‍🎓")}
-          </Button>
-        </Col>
-        {/* <Col>
-          <Button
-            size="xl"
-            variant="primary"
-            className="text-uppercase"
-            onClick={scrollToSection}>
-            Contact Me {emoji("✉️")}
-          </Button>
-        </Col> */}
-        <Col>
-          <Button
-            size='xl'
-            variant="primary"
-            className="text-uppercase"
-            onClick={scrollToSection}
-          >Covid-19 Information {emoji("🦠")} </Button>
-        </Col>
-      </Row>
-    );
+    // extraInfoPart = (
+    // <Row>
+    //   <Col>
+    //     <Button
+    //       size="xl"
+    //       variant="primary"
+    //       className="text-uppercase"
+    //       href="https://jmhays.github.io"
+    //     >
+    //       My Academic Creds {emoji("👩🏻‍🎓")}
+    //     </Button>
+    //   </Col>
+    //   <Col>
+    //     <Button
+    //       size='xl'
+    //       variant="primary"
+    //       className="text-uppercase"
+    //       onClick={scrollToSection}
+    //     >Covid-19 Information {emoji("🦠")} </Button>
+    //   </Col>
+    // </Row>
+    // );
   }
 
   return (

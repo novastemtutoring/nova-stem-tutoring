@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, } from "react-bootstrap";
 import SocialIconPanel from "components/SocialIconPanel";
 
 const Footer = ({ frontmatter }) => {
@@ -10,20 +10,8 @@ const Footer = ({ frontmatter }) => {
   }
 
   const {
-    copyright,
-    privacyHref,
-    privacyText,
-    termsHref,
-    termsText,
-    social: {
-      facebook,
-      github,
-      linkedin,
-      medium,
-      twitter,
-      yelp,
-      phone,
-      email },
+    copyright
+
   } = frontmatter;
 
   return (

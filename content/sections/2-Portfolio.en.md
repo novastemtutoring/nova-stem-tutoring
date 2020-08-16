@@ -1,55 +1,58 @@
 ---
-anchor: "Portfolio"
-header: "Portfolio"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+anchor: "Teaching Experience"
+header: "Teaching Experience"
+subheader: ""
 portfolios: [
   {
-    imageFileName: "portfolio/01-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/01-full.jpg",
-    header: "Threads",
-    subheader: "Illustration",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Threads", "Category: Illustration"]
-  },
+
+    imageFileName: "team/heat_engine.png",
+    imageFileNameDetail: "team/heat_engine.png",
+    header: "Biophysical Principles",
+    subheader: "Course Instructor",
+    content: "Designed and taught curriculum on intro thermodynamics and statistical mechanics for first graduate students",
+    extraInfo: []
+
+  }, 
   {
-    imageFileName: "portfolio/02-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/02-full.jpg",
-    header: "Explorer",
-    subheader: "Graphic Design",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+
+    imageFileName: "team/ideaslab.png",
+    imageFileNameDetail: "team/ideaslab.png",
+    header: "IDEAS Lab",
+    subheader: "Teaching Assistant",
+    content: "Supervised laboratory work of undergraduate biomedical engineering students.",
     extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
-  },
+
+  }, 
   {
-    imageFileName: "portfolio/03-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/03-full.jpg",
-    header: "Finish",
-    subheader: "Identity",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+
+    imageFileName: "team/linearalgebra.png",
+    imageFileNameDetail: "team/linearalgebra.png",
+    header: "Linear Algebra for Engineers",
+    subheader: "Teaching Assistant",
+    content: "Graded and held office hours with undergraduate engineering students",
     extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
-  },
+
+  }, 
   {
-    imageFileName: "portfolio/04-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/04-full.jpg",
-    header: "Lines",
-    subheader: "Branding",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Lines", "Category: Branding"]
-  },
-  {
-    imageFileName: "portfolio/05-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/05-full.jpg",
-    header: "Southwest",
-    subheader: "Website Design",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Southwest", "Category: Website Design"]
-  },
-  {
-    imageFileName: "portfolio/06-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/06-full.jpg",
-    header: "Window",
-    subheader: "Photography",
-    content: "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
-    extraInfo: ["Date: January 2017", "Client: Window", "Category: Photography"]
-  }
+
+    imageFileName: "team/uva_centered_logo.jpg",
+    imageFileNameDetail: "team/uva_centered_logo.jpg",
+    header: "Undergraduate Research Mentor",
+    subheader: "Mentor",
+    content: "Ongoing mentorship of undergraduate student in biomedical engineering (2018-present)",
+    extraInfo: []
+
+  }, 
+
+    {
+
+    imageFileName: "team/uva_centered_logo.jpg",
+    imageFileNameDetail: "team/uva_centered_logo.jpg",
+    header: "REU Mentor",
+    subheader: "Mentor for Research Experience for Undergraduates",
+    content: "Mentored undergraduate student in biomedical engineering for one summer of research",
+    extraInfo: []
+
+  }, 
 ]
 ---

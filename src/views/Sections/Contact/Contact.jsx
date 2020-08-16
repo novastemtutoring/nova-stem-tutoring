@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import Icon from "components/Icon";
 import PageSection from "components/PageSection";
 
@@ -34,6 +34,14 @@ const Contact = ({ className, frontmatter }) => {
             {email}
           </a>
         </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <h2 className="mt-0">New to NoVA STEM?
+          </h2>
+      </Row>
+      <Row className="justify-content-center">
+        <Button size='xl' variant="primary"
+          className="text-uppercase" href="https://docs.google.com/forms/d/e/1FAIpQLSeCs-LBDdpXNDuLnj0iTrq6uQ36fTPh1Ku8zBpWKyNiedY41Q/viewform?usp=sf_link"> Set up a free 20 minute consultation!</Button>
       </Row>
     </PageSection>
   );

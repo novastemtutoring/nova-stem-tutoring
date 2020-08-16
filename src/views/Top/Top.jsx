@@ -30,7 +30,7 @@ const Top = ({ frontmatter }) => {
             My Academic Creds {emoji("👩🏻‍🎓")}
           </Button>
         </Col>
-        <Col>
+        {/* <Col>
           <Button
             size="xl"
             variant="primary"
@@ -38,7 +38,7 @@ const Top = ({ frontmatter }) => {
             onClick={scrollToSection}>
             Contact Me {emoji("✉️")}
           </Button>
-        </Col>
+        </Col> */}
         <Col>
           <Button
             size='xl'

@@ -46,6 +46,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-source-fontawesome",
     "gatsby-plugin-offline",
     {
       resolve: "gatsby-plugin-sass",
@@ -59,14 +60,18 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: "Montserrat",
+            family: "Lato",
             variants: [400, 700],
           },
           {
-            family: "Kaushan+Script",
+            family: "Patrick+Hand+SC",
           },
           {
-            family: "Droid+Serif",
+            family: "Patrick+Hand",
+            variants: [400, 700, "400italic", "700italic"],
+          },
+          {
+            family: "Lato",
             variants: [400, 700, "400italic", "700italic"],
           },
           {

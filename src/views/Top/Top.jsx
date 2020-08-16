@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Button } from "react-bootstrap";
+import { Button, Row, Col } from "react-bootstrap";
 import useSmoothScrollTo from "hooks/useSmoothScrollTo";
 import ImageCard from "components/ImageCard";
+import emoji from 'react-easy-emoji';
+
 
 const Top = ({ frontmatter }) => {
   if (!frontmatter) {
@@ -17,9 +19,34 @@ const Top = ({ frontmatter }) => {
   let extraInfoPart;
   if (jumpToAnchor && jumpToAnchorText) {
     extraInfoPart = (
-      <Button size="xl" variant="primary" className="text-uppercase" onClick={scrollToSection}>
-        {jumpToAnchorText}
-      </Button>
+      <Row>
+        <Col>
+          <Button
+            size="xl"
+            variant="primary"
+            className="text-uppercase"
+            href="https://jmhays.github.io"
+          >
+            My Academic Creds {emoji("👩🏻‍🎓")}
+          </Button>
+        </Col>
+        <Col>
+          <Button
+            size="xl"
+            variant="primary"
+            className="text-uppercase"
+            onClick={scrollToSection}>
+            Contact Me {emoji("✉️")}
+          </Button>
+        </Col>
+        <Col>
+          <Button
+            size='xl'
+            variant="primary"
+            className="text-uppercase"
+          >Covid-19 Information {emoji("🦠")} </Button>
+        </Col>
+      </Row>
     );
   }
 

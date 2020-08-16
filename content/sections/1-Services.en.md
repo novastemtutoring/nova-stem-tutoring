@@ -1,7 +1,7 @@
 ---
-anchor: "Services"
+anchor: "What I Teach"
 header: "What I Teach"
-subheader: "Upper level physics and mathematics courses"
+subheader: "College-level science and math courses"
 services: [
   {
 

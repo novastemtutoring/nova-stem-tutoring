@@ -4,6 +4,9 @@ import PropTypes from "prop-types";
 import CircleFAButton from "components/CircleFAButton";
 import Image from "components/Image";
 import "./ServiceItem.scss";
+
+
+
 // import { ListGroup } from "react-bootstrap";
 
 const ServiceItem = ({ iconName, imageFileName, header, content, subjects }) => {
@@ -22,11 +25,13 @@ const ServiceItem = ({ iconName, imageFileName, header, content, subjects }) => 
     subjectPart =
       subjects.map((subject) =>
         <div key={subject.id}>
-          <ul>
-            <li className="far fa-star">
-              {subject}
-            </li>
-          </ul>
+          <p className="text-muted">
+            <ul>
+              <li>
+                {subject}
+              </li>
+            </ul>
+          </p>
         </div >
       )
   }

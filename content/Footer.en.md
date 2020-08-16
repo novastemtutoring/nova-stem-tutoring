@@ -1,9 +1,11 @@
 ---
-copyright: "Copyright © Start Bootstrap 2020"
+copyright: "Copyright © NoVA STEM Tutoring 2020"
 social: {
-  twitter: "#",
-  facebook: "#",
-  medium: "#"
+  twitter: "novastemtutor", 
+  facebook: "novastemtutoring", 
+  yelp: "nova-stem-tutoring", 
+  phone: "7036797548", 
+  email: "drhays@novastemtutoring.com"
 }
 privacyText: "Privacy Policy"
 privacyHref: "#!"

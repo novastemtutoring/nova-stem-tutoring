@@ -44,6 +44,7 @@ const Top = ({ frontmatter }) => {
             size='xl'
             variant="primary"
             className="text-uppercase"
+            onClick={scrollToSection}
           >Covid-19 Information {emoji("🦠")} </Button>
         </Col>
       </Row>

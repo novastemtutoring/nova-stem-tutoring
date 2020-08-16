@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { Container, Card } from "react-bootstrap";
 import Image from "components/Image";
 import "./ImageCard.scss";
+import SocialIconPanel from "./SocialIconPanel";
 
 const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
   return (
@@ -15,6 +16,7 @@ const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extr
           <div className="intro-text">
             <div className="intro-heading text-uppercase">{header}</div>
             <div className="intro-lead-in">{subheader}</div>
+            <SocialIconPanel />
             {extraInfo}
           </div>
         </Container>

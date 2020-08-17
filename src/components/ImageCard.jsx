@@ -7,7 +7,7 @@ import Image from "components/Image";
 import "./ImageCard.scss";
 import SocialIconPanel from "./SocialIconPanel";
 
-const ImageCard = ({ className, imageFileName, imageAlt, header, subheader, extraInfo }) => {
+const ImageCard = ({ className, imageFileName, imageAlt, header, subheader }) => {
   return (
     <Card className={clsx("image-card bg-dark text-white text-center", className)}>
       <Image className="image" fileName={imageFileName} alt={imageAlt || header || subheader} />
@@ -30,7 +30,6 @@ ImageCard.propTypes = {
   imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
-  extraInfo: PropTypes.any,
 };
 
 ImageCard.defaultProps = {
@@ -39,7 +38,6 @@ ImageCard.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
-  extraInfo: null,
 };
 
 export default ImageCard;

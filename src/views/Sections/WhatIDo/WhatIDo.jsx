@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import clsx from "clsx";
 
-import { Row, Col, Button, Container, Card } from 'react-bootstrap';
+
+import { Row, Col, Button } from 'react-bootstrap';
 import emoji from 'react-easy-emoji';
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
@@ -14,7 +14,7 @@ const WhatIDo = ({ frontmatter }) => {
         return null;
     }
 
-    const { className, anchor, header, subheader, jumpToAnchor } = frontmatter;
+    const { className, anchor, jumpToAnchor } = frontmatter;
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const scrollToSection = useSmoothScrollTo(jumpToAnchor);
 

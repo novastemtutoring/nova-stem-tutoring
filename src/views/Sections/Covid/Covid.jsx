@@ -12,7 +12,7 @@ const Covid = ({ className, frontmatter }) => {
         return null;
     }
 
-    const { anchor, header: rootHeader, subheader: rootSubHeader, content } = frontmatter;
+    const { anchor, subheader: rootSubHeader, content } = frontmatter;
 
     return (
         <PageSection className={className} id={anchor}>

@@ -36,7 +36,7 @@ const Contact = ({ className, frontmatter }) => {
         </Col>
       </Row>
       <Row className="justify-content-center">
-        <h2 className="mt-0">New to NoVA STEM?
+        <h2 className="mt-5">New to NoVA STEM?
           </h2>
       </Row>
       <Row className="justify-content-center">

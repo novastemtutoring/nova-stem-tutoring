@@ -5,7 +5,7 @@ import clsx from "clsx";
 import { Col } from "react-bootstrap";
 import emoji from "react-easy-emoji";
 import "./SectionHeader.scss";
-import { propTypes } from "react-bootstrap/esm/Image";
+// import { propTypes } from "react-bootstrap/esm/Image";
 
 const SectionHeader = ({ header, subheader, className, myEmoji, ...restProps }) => {
   const subheaderPart = subheader ? (

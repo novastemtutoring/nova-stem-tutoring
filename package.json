@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-startbootstrap-agency",
-  "description": "gatsby version of startbootstrap-agency with i18n support",
+  "name": "nova-stem-tutoring",
+  "description": "Website for NoVA STEM Tutoring",
   "version": "0.1.0",
-  "author": "thundermiracle",
+  "author": "novastemtutoring",
   "bugs": {
-    "url": "https://github.com/thundermiracle/gatsby-startbootstrap-agency/issues"
+    "url": "https://github.com/novastemtutoring/nova-stem-tutoring"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -61,22 +61,25 @@
     "gatsby-plugin-eslint": "^2.0.8",
     "prettier": "^2.0.4"
   },
-  "homepage": "https://thundermiracle.github.io/gatsby-startbootstrap-agency",
+  "homepage": "novastemtutoring.com",
   "keywords": [
-    "gatsby",
-    "gatsbyjs",
-    "landing page",
-    "landing",
-    "i18n",
-    "eslint",
-    "bootstrap",
-    "startbootstrap-agency"
+    "tutor",
+    "tutoring",
+    "science",
+    "math",
+    "mathematics",
+    "physics",
+    "STEM",
+    "Chantilly",
+    "South Riding",
+    "Fairfax",
+    "northern virginia"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thundermiracle/gatsby-startbootstrap-agency.git"
+    "url": "git+https://github.com/novastemtutoring/nova-stem-tutoring.git"
   },
   "scripts": {
     "clean": "gatsby clean",

@@ -48,6 +48,7 @@ export const query = graphql`
           menuText
           portfolios {
             content
+            website
             extraInfo
             header
             subheader

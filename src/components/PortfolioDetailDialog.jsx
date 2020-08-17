@@ -13,8 +13,12 @@ const PortfolioDetailDialog = ({
   subheader,
   content,
   extraInfo,
+  website,
   ...restProps
 }) => {
+  let myText = "";
+  if (website) myText = "Check out my course website!";
+
   return (
     <Modal
       {...restProps}
@@ -34,7 +38,8 @@ const PortfolioDetailDialog = ({
           alt={imageAlt || header || subheader}
         />
         <p>{content}</p>
-        {extraInfo}
+        <a href={website}>{myText}</a>
+
       </Modal.Body>
       <Modal.Footer>
         <div className="mx-auto">
@@ -56,6 +61,7 @@ PortfolioDetailDialog.propTypes = {
   subheader: PropTypes.string,
   content: PropTypes.string,
   extraInfo: PropTypes.any,
+  website: PropTypes.string
 };
 
 PortfolioDetailDialog.defaultProps = {
@@ -66,6 +72,7 @@ PortfolioDetailDialog.defaultProps = {
   subheader: "",
   content: "",
   extraInfo: null,
+  website: ""
 };
 
 export default PortfolioDetailDialog;

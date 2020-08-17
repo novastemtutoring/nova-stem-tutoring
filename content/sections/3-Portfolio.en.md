@@ -10,7 +10,7 @@ portfolios: [
     header: "Biophysical Principles",
     subheader: "Course Instructor",
     content: "Designed and taught curriculum on intro thermodynamics and statistical mechanics for first graduate students",
-    extraInfo: []
+    website: "https://jmhays.github.io/biop-web"
 
   }, 
   {
@@ -19,8 +19,8 @@ portfolios: [
     imageFileNameDetail: "experience/ideaslab.png",
     header: "IDEAS Lab",
     subheader: "Teaching Assistant",
-    content: "Supervised laboratory work of undergraduate biomedical engineering students.",
-    extraInfo: ["Date: January 2017", "Client: Explorer", "Category: Graphic Design"]
+    content: "Supervised laboratory work of undergraduate biomedical engineering students. I independently developed a course website to help students with their scientific writing skills!",
+    website: "https://ideaslab2018.wordpress.com/"
 
   }, 
   {
@@ -30,7 +30,6 @@ portfolios: [
     header: "Linear Algebra for Engineers",
     subheader: "Teaching Assistant",
     content: "Graded and held office hours with undergraduate engineering students",
-    extraInfo: ["Date: January 2017", "Client: Finish", "Category: Identity"]
 
   }, 
   {
@@ -39,8 +38,9 @@ portfolios: [
     imageFileNameDetail: "experience/uva_centered_logo.jpg",
     header: "Undergraduate Research Mentor",
     subheader: "Mentor",
-    content: "Ongoing mentorship of undergraduate student in biomedical engineering (2018-present)",
-    extraInfo: []
+    content: "Ongoing mentorship of undergraduate student in biomedical engineering (2019-present)",
+
+ 
 
   }, 
 
@@ -50,8 +50,7 @@ portfolios: [
     imageFileNameDetail: "experience/uva_centered_logo.jpg",
     header: "REU Mentor",
     subheader: "Mentor for Research Experience for Undergraduates",
-    content: "Mentored undergraduate student in biomedical engineering for one summer of research",
-    extraInfo: []
+    content: "Mentored undergraduate student in biomedical engineering for one summer of research (2018)",
 
   }, 
 ]

@@ -1,7 +1,7 @@
 ---
 anchor: "My Education"
 header: "My Education"
-subheader: "Virginia all the way!"
+subheader: "The University of Virginia and the College of William and Mary"
 timeline: [
   {
 

@@ -43,6 +43,7 @@ export const query = graphql`
           header
           email
           imageFileName
+          info
           jumpToAnchor
           jumpToAnchorText
           menuText
@@ -75,6 +76,7 @@ export const query = graphql`
             email
           }
           subheader
+          subhead2
           teamMember {
             header
             imageFileName

@@ -1,4 +1,4 @@
 ---
-brand: "NoVA STEM Tutoring"
+brand: "NoVA STEM"
 menuText: "Menu "
 ---
